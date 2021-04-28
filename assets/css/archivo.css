@@ -34,6 +34,14 @@
   font-weight: 700;
   font-style: italic; }
 
+.titulo-principal-blanco {
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-style: italic;
+  color: #fff; }
+
 .justificado {
   text-align: justify;
   margin-left: 200px;
@@ -71,7 +79,9 @@
   justify-content: space-between;
   margin-left: 10px; }
 
-/********************* Shopping Demo-6 **********************/
+/*========================================
+================== SHOP ==================
+==========================================*/
 .fondo-shop {
   background: url("../../img/Plantilla-bg.jpg"); }
 
@@ -79,7 +89,7 @@
   overflow: hidden; }
 
 .product-grid6 {
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'bellota';
   text-align: center;
   position: relative;
   transition: all .5s ease 0s; }
@@ -106,7 +116,7 @@
   opacity: 0; }
 
 .product-grid6 .title {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
   text-transform: capitalize;
   margin: 0 0 10px;
@@ -119,7 +129,7 @@
   color: #7A283A; }
 
 .product-grid6 .price {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   color: #7A283A; }
 
@@ -207,12 +217,12 @@
 ============= FORMULARIO ==============
 =======================================*/
 .fondo {
-  background: url("../../img/Plantilla-bg.jpg"); }
+  background: url("../../img/muffins-fondo.jpg"); }
 
 .form {
   width: 450px;
   margin: auto;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(122, 40, 58, 0.6);
   padding: 10px 20px;
   box-sizing: border-box;
   margin-top: 20px;
@@ -318,6 +328,11 @@ i {
 ============== @MEDIA =================
 =======================================*/
 @media (max-width: 1024px) {
+  .home-imagen {
+    width: 100%; }
+  .container .img-carousel {
+    width: 100px;
+    height: 100px; }
   footer {
     height: 55vh; } }
 
@@ -344,3 +359,11 @@ i {
   footer {
     width: 790px;
     height: 55vh; } }
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic; }
+
+.form-control.shadow-0:focus {
+  box-shadow: none; }
