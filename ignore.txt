@@ -11,8 +11,8 @@ ehthumbs_vista.db
 
 
 #carpetas
-.node_modules/
-.jspm_packages/
+node_modules/
+jspm_packages/
 
 
 
