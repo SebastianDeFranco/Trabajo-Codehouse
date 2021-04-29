@@ -9,12 +9,13 @@
   text-decoration: none;
   font-size: 25px;
   padding: 10px;
-  transition: 0,5s; }
+  transition: 0.5s; }
 
 .nav-link--color:hover {
   text-decoration: none;
   color: #fff;
-  border-bottom: 2px solid #C66E87; }
+  background: #b43d57;
+  border-radius: 5px; }
 
 .espacio {
   height: 70vh; }
@@ -82,9 +83,6 @@
 /*========================================
 ================== SHOP ==================
 ==========================================*/
-.fondo-shop {
-  background: url("../../img/Plantilla-bg.jpg"); }
-
 .product-grid6, .product-grid6 .product-image6 {
   overflow: hidden; }
 
@@ -333,6 +331,11 @@ i {
   .container .img-carousel {
     width: 100px;
     height: 100px; }
+  .grid-recetas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin-left: 10px; }
   footer {
     height: 55vh; } }
 

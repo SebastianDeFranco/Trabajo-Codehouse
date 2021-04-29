@@ -56,14 +56,14 @@
     </header>    
 <!--==============SHOP================-->
 
-    <div class="container col-xl-10">
+    <div class="container col-xl-10 body">
         <h3 class="titulo-principal">Shop</h3>
         <div class="row">
             <div class="col-xl-3 col-md-3 col-sm-6">
                 <div class="product-grid6">
                     <div class="product-image6">
                         <a href="#">
-                            <img src="../img/shop-book.jpg" alt="e-book recetas de navidad">
+                            <img src="../img/navidad-ebook.jpg" alt="e-book recetas de navidad">
                         </a>
                     </div>
                     <div class="product-content">
@@ -83,7 +83,7 @@
                 <div class="product-grid6">
                     <div class="product-image6">
                         <a href="#">
-                            <img class="pic-1" src="../img/shop-book.jpg" alt="e-book 10 recetas sin Tacc">
+                            <img class="pic-1" src="../img/tacc-ebook.jpg" alt="e-book 10 recetas sin Tacc">
                         </a>
                     </div>
                     <div class="product-content">
@@ -102,7 +102,7 @@
                 <div class="product-grid6">
                     <div class="product-image6">
                         <a href="#">
-                            <img class="pic-1" src="../img/shop-book.jpg" alt="e-book 50 recetas Dulces">
+                            <img class="pic-1" src="../img/macaron-ebook.jpg" alt="e-book 50 recetas Dulces">
                         </a>
                     </div>
                     <div class="product-content">
@@ -142,7 +142,7 @@
                 <div class="product-grid6">
                     <div class="product-image6">
                         <a href="#">
-                            <img class="pic-1" src="../img/shop-curso.jpg" alt="Curso online">
+                            <img class="pic-1" src="../img/pizza-ebook.jpg" alt="Curso online">
                         </a>
                     </div>
                     <div class="product-content">
@@ -161,7 +161,7 @@
                 <div class="product-grid6">
                     <div class="product-image6">
                         <a href="#">
-                            <img class="pic-1" src="../img/shop-curso.jpg" alt="Curso online">
+                            <img class="pic-1" src="../img/sin-azucar-ebook.jpg" alt="Curso online">
                         </a>
                     </div>
                     <div class="product-content">
@@ -183,39 +183,43 @@
 
 
 <!--==============FOOTER===============-->
-<footer>
-        <div class="footer__newsletter">
-            <h2 class="footer__titulo--grande">Suscribirse a Nuestro Newsletter</h2>
-            <form action="">
-                <input type="text" placeholder="Email" class="footer__email">
-                <button class="footer__boton">Suscribirse</button>
-            </form>
-        </div>
-        <div class="footer__main">
-            <div>
+<footer class="fondo-nav body">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
                 <h2 class="footer__titulo">Un Blog de Recetas</h2>
                     <p class="footer__parrafo">Copyright &copy; 2021</p>
                     <p class="footer__parrafo">Un Blog de Recetas, todos los derechos reservados</p>
-            </div>
-            <div>
-                <h2 class="footer__titulo">Paginas</h2>
-                <ul class="footer__lista">
-                    <li><a href="../index.html" class="footer__links"><i class="fas fa-cookie-bite"></i>Home</a></li>
-                    <li><a href="./recetas.html" class="footer__links"><i class="fas fa-cookie-bite"></i>Recetas</a></li>
-                    <li><a href="./nosotras.html" class="footer__links"><i class="fas fa-cookie-bite"></i>¿Quienes Somos?</a></li>
-                    <li><a href="./shop.html" class="footer__links"><i class="fas fa-cookie-bite"></i>Shop</a></li>
-                    <li><a href="./contacto.html" class="footer__links"><i class="fas fa-cookie-bite"></i>Contacto</a></li>
+                <ul class="list-inline mt-4">
+                    <li class="list-inline-item"><a href="#" target="_blank" title="Tiktok"><i class="fab fa-tiktok footer__links"></i></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank" title="Youtube"><i class="fab fa-youtube footer__links"></i></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram footer__links"></i></a></li>
                 </ul>
             </div>
-            <div>
-                <h2 class="footer__titulo">Social</h2>
-                    <ul class="footer__lista">
-                        <li><a href="https://www.instagram.com/unblogderecetas/?hl=es-la" class="footer__links"><i class="fab fa-instagram footer__links"></i>Instagram</a></li>
-                        <li><a href="https://www.youtube.com/channel/UCScyf2paLxI53kEVjIsCjdQ" class="footer__links"><i class="fab fa-youtube footer__links"></i>Youtube</a></li>
-                        <li><a href="https://www.tiktok.com/@unblogderecetas?lang=es" class="footer__links"><i class="fab fa-tiktok footer__links"></i>Tik Tok</a></li>
-                    </ul>
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                <h6 class="text-uppercase font-weight-bold mb-4">Páginas</h6>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-2"><a href="#" class="text-muted">Home</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted">Recetas</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted">¿Quienes Somos?</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted">Shop</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted">Contacto</a></li>
+                </ul>
             </div>
-        </div>    
+            <div class="col-lg-4 col-md-6 mb-lg-0">
+                <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
+                <p class="text-muted mb-4">Suscribite a nuestro Newsletter</p>
+                    <div class="p-1 rounded border">
+                        <div class="input-group">
+                            <input type="email" placeholder="E-mail" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
+                                <div class="input-group-append">
+                                    <button id="button-addon1" type="submit" class="btn btn-link"><i class="fa fa-paper-plane footer__links"></i></button>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
 </footer>
     <!--=============SCRIPT=============-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
