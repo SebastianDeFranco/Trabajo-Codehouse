@@ -26,9 +26,6 @@ $blanco:#fff;
     border-radius: 5px;
 }
 
-.espacio{
-    height: 70vh;
-}
 
 #logo{
     width: 100px;
@@ -98,9 +95,29 @@ $blanco:#fff;
 }
 
 /*====================================
-==========   GRID RECETAS   ==========
+============   RECETAS   =============
 ======================================*/
+.fondo-rosa{
+    background: url('../../img/cuadrille-rosa.png');
+    height: 70vh;
+}
 
+.fondo-blanco{
+    background-color: #fff;
+    width: 50%;
+    height: 80%;
+    box-shadow: 3px 3px 3px 3px;
+    margin: auto;
+    padding: 20px;
+}
+
+.imagen-posicion{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 2px 2px 2px 2px;
+}
 
 .grid-recetas{
     display: grid;
