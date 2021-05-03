@@ -30,8 +30,9 @@
   margin-bottom: 20px;
   padding: 20px;
   text-align: center;
-  font-weight: 700;
-  font-style: italic; }
+  font-weight: lighter;
+  font-style: italic;
+  text-decoration: underline; }
 
 .titulo-principal-seccion {
   margin-bottom: 20px;
@@ -115,6 +116,33 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: space-between;
   margin-left: 10px; }
+
+/*=========================================
+============= INGREDIENTES ================
+===========================================*/
+.flex-recetas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+
+.flex-article {
+  background-color: #fff;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 2px; }
+
+.flex-aside {
+  background-color: #fff;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px; }
 
 /*========================================
 ================== SHOP ==================
@@ -376,9 +404,49 @@ i {
 /*=====================================
 ============== @MEDIA =================
 =======================================*/
+@media (max-width: 1980px) {
+  .titulo-carousel {
+    font-size: 34px;
+    margin-top: 200px;
+    margin-bottom: 200px; }
+  .titulo-carousel-2 {
+    font-size: 34px;
+    margin-top: 200px;
+    margin-bottom: 200px; }
+  .grid-recetas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+  .footer__titulo {
+    font-size: 24px; }
+  .footer__parrafo {
+    font-size: 18px; }
+  .text-muted {
+    font-size: 18px; } }
+
+@media (max-width: 1480px) {
+  .titulo-carousel {
+    font-size: 30px;
+    margin-top: 75px;
+    margin-bottom: 75px; }
+  .titulo-carousel-2 {
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px; }
+  .grid-recetas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; } }
+
 @media (max-width: 1024px) {
   .home-imagen {
     width: 100%; }
+  .titulo-carousel {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  .titulo-carousel-2 {
+    font-size: 30px;
+    margin-top: 75px;
+    margin-bottom: 75px; }
   .container .img-carousel {
     width: 100px;
     height: 100px; }
@@ -412,7 +480,7 @@ i {
     width: 100%;
     flex-wrap: nowrap; } }
 
-@media (max-width: 541px) {
+@media (max-width: 565px) {
   #portada {
     height: 300px; }
   .titulo-carousel {
@@ -425,18 +493,32 @@ i {
     margin-bottom: 50px; }
   .grid-recetas {
     grid-template-columns: 1fr;
-    margin-left: 125px; } }
+    margin-left: 125px; }
+  footer .row {
+    width: 100%;
+    flex-wrap: wrap; } }
 
 @media (max-width: 412px) {
   .titulo-principal {
     font-size: 16px; }
   .titulo-principal-blanco {
     font-size: 24px; }
+  #portada {
+    height: 250px; }
+  .titulo-carousel {
+    font-size: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px; }
+  .titulo-carousel-2 {
+    font-size: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px; }
   .titulo-principal-seccion {
     font-size: 24px; }
   .grid-recetas {
     grid-template-columns: 1fr;
-    margin-left: 70px; }
+    margin-left: 50px;
+    margin-right: 50px; }
   .form {
     width: 300px;
     background: rgba(122, 40, 58, 0.6);
