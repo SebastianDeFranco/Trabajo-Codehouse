@@ -57,7 +57,7 @@ $blanco:#fff;
     padding: 20px;
     text-align: center;
     font-weight: 700;
-    text-shadow: 5px 5px 5px $bordo;
+    text-transform: uppercase;
 
 }
 
@@ -67,9 +67,9 @@ $blanco:#fff;
     text-align: center;
     font-weight: 700;
     text-shadow: 5px 5px 5px $bordo,
-    5px 5px 5px black,
-    5px 5px 5px $bordo;
+    5px 5px 5px black;
     color: $blanco;
+    text-transform: uppercase;
 }
 
 /*====================================

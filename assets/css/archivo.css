@@ -42,15 +42,16 @@
   padding: 20px;
   text-align: center;
   font-weight: 700;
-  text-shadow: 5px 5px 5px #7A283A; }
+  text-transform: uppercase; }
 
 .titulo-principal-seccion {
   margin-bottom: 20px;
   padding: 20px;
   text-align: center;
   font-weight: 700;
-  text-shadow: 5px 5px 5px #7A283A, 5px 5px 5px black, 5px 5px 5px #7A283A;
-  color: #fff; }
+  text-shadow: 5px 5px 5px #7A283A, 5px 5px 5px black;
+  color: #fff;
+  text-transform: uppercase; }
 
 /*====================================
 ============   RECETAS   =============
