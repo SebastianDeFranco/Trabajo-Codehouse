@@ -29,7 +29,7 @@ $blanco:#fff;
 
 #logo{
     width: 100px;
-    height: 90px;
+    height: auto;
 }
 
 .fondo-nav{
@@ -78,31 +78,6 @@ $blanco:#fff;
 .fondo-rosa{
     background: url('../../img/cuadrille-rosa.png');
 }
-
-.fondo-blanco{
-    background-color: #fff;
-    width: 450px;
-    height: 1050px;
-    box-shadow: 3px 3px 3px 3px;
-    margin-right: 100px;
-    padding: 20px;
-}
-
-.fondo-blanco-tamaño{
-    background-color: #fff;
-    width: 450px;
-    height: 900px;
-    box-shadow: 3px 3px 3px 3px;
-    padding: 20px;
-}
-
-.estilo-lista-numerica{
-    list-style: decimal;
-}
-.estilo-lista{
-    list-style: disc;
-}
-
 
 .grid-recetas{
     display: grid;
@@ -155,7 +130,12 @@ $blanco:#fff;
     background-color: $bordo;
 }
 
-
+.estilo-lista-numerica{
+    list-style: decimal;
+}
+.estilo-lista{
+    list-style: disc;
+}
 
 /*========================================
 ================== SHOP ==================
@@ -352,36 +332,6 @@ footer{
     margin: auto;
 }
 
-.footer__newsletter{
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem;
-}
-
-.footer__email{
-    padding: 8px 10px;
-    background-color: #141414;
-    border: 1px solid #ccc;
-    width: 50%;
-    outline: none;
-    color: white;
-}
-
-.footer__boton{
-    color: black;
-    background-color: white;
-    outline: none;
-    border: none;
-    padding: 9px 25px;
-    border-radius: 14px;
-    font-size: 14px;
-    cursor: pointer;
-}
-
-.footer__boton:hover{
-    background-color: #d6d6d6;
-}
-
 .footer__parrafo{
     margin-top: 10px;
 }
@@ -404,31 +354,10 @@ footer{
     text-align: left;
 }
 
-.footer__titulo--grande{
-    font-size: 40px;
-}
-.footer__lista{
-    margin: 0;
-    padding: 0;
-}
-
-
 li{
     list-style: none;
     margin-bottom: 10px;
 }
-
-.footer__main{
-    display: grid;
-    grid-template-columns: 3fr 1fr 1fr;
-    justify-content: space-between;
-    padding: 2rem;
-}
-
-i{
-    margin-right: 20px;
-}
-
 
 .form-control::placeholder {
     font-size: 0.95rem;
