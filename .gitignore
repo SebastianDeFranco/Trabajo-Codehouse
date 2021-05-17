@@ -11,7 +11,7 @@ ehthumbs_vista.db
 
 
 #carpetas
-node_modules/
+/node_modules
 
 
 
