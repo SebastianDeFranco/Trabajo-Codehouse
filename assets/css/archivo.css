@@ -454,7 +454,7 @@ li {
   .footer__titulo {
     font-size: 14px; }
   .footer__parrafo {
-    font-size: 8px; }
+    font-size: 12px; }
   .text-muted {
     font-size: 8px; }
   footer .row {
@@ -474,7 +474,7 @@ li {
   .titulo-secundario {
     font-size: 14px; }
   .footer__links {
-    font-size: 10px; } }
+    font-size: 12px; } }
 
 @media (max-width: 324px) {
   .grid-recetas {
@@ -516,12 +516,6 @@ li {
     font-size: 14px; }
   .footer__titulo {
     font-size: 14px; }
-  .footer__parrafo {
-    font-size: 8px; }
-  .text-muted {
-    font-size: 8px; }
   footer .row {
     width: 100%;
-    flex-wrap: wrap; }
-  .footer__links {
-    font-size: 8px; } }
+    flex-wrap: wrap; } }
