@@ -322,10 +322,18 @@ li {
 /*=====================================
 ============== @MEDIA =================
 =======================================*/
-@media (max-width: 1980px) {
+@media (min-width: 1980px) {
   .grid-recetas {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+  .justificado {
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height: 1.7;
+    font-size: 30px; }
   .footer__titulo {
     font-size: 24px; }
   .footer__parrafo {
