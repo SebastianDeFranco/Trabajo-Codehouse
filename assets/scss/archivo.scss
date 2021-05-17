@@ -79,11 +79,19 @@ $blanco:#fff;
     background: url('../../img/cuadrille-rosa.png');
 }
 
+
 .grid-recetas{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-between;
     margin-left: 10px;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+.card-title{
+    font-size: 24px;
 }
 
 /*=========================================
